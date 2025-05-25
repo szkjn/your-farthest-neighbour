@@ -47,9 +47,9 @@ class OakDLiteCamera:
             
         in_rgb = self.q_rgb.tryGet()
         if in_rgb is not None:
-            # Convert to OpenCV format (BGR)
+            # Get frame (already in RGB from Oak D)
             frame = in_rgb.getCvFrame()
-            return cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+            return frame
         return None
     
     def release(self):
