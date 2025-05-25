@@ -1,6 +1,6 @@
-# Interactive Art Installation - Real-Time Face Opposite Finder
+# Meet Your Farthest Neighbour
 
-Real-time art installation that finds the "farthest neighbor face" from a dataset using Oak D Lite camera.
+Real-time installation that finds the "farthest neighbor face" from a dataset using Oak D Lite camera.
 
 ## Setup
 
